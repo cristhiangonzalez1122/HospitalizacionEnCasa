@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "K5gLUkOSXoyqDv1VE0d/PcIRNmBz7/fhz4Ui29Ag5x5BDx/VEFH27Ibhx6h15FDYmm/PRhnenwX7HrrQxRWtug==",
+  "success": true,
+  "projectFilePath": "C:\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Servicios\\HospiEnCasa.App.Servicios.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\CRISTHIAN GONZALEZ\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\CRISTHIAN GONZALEZ\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\CRISTHIAN GONZALEZ\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\CRISTHIAN GONZALEZ\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\CRISTHIAN GONZALEZ\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\CRISTHIAN GONZALEZ\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
