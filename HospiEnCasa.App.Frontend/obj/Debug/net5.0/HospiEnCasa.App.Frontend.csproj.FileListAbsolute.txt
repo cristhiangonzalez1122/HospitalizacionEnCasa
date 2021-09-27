@@ -71,3 +71,4 @@ C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net5.0\Hos
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net5.0\HospiEnCasa.App.Persistencia.dll
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net5.0\HospiEnCasa.App.Persistencia.pdb
 C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\bin\Debug\net5.0\HospiEnCasa.App.Dominio.pdb
+C:\Hospitalizacion\HospiEnCasa.App\HospiEnCasa.App.Frontend\obj\Debug\net5.0\Razor\Pages\Pacientes\Details.cshtml.g.cs
