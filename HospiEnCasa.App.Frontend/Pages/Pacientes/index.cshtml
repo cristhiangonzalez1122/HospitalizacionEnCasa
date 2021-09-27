@@ -3,22 +3,25 @@
 @{
 }
 <h1>Listado de Pacietes</h1>
-<table class ="Table">
-    <thead>
+<table class="Table">
+    <thead class="thead-dark">
         <tr>
             <th scope="col">Nombre</th>
             <th scope="col">Apellidos</th>
             <th scope="col">NumeroTelefono</th>
+            <th scope="col">Acciones</th>
         </tr>
     </thead>
     </tbody>
-        @foreach(var paciente in Model.pacientes)
-        {
-            <tr>
-                <td>@paciente.Nombre</td>
-                <td>@paciente.Apellidos</td>
-                <td>@paciente.NumeroTelefono</td>
-            </tr>
-        }
+    @foreach (var paciente in Model.pacientes)
+    {
+        <tr>
+            <td>@paciente.Nombre</td>
+            <td>@paciente.Apellidos</td>
+            <td>@paciente.NumeroTelefono</td>
+            <td><a class="btn btn-primary" asp-page="./Details" asp-route-id="@paciente.Id">Detalle</a></td>
+            
+        </tr>
+    }
     </tbody>
 </table>
