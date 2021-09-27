@@ -11,11 +11,23 @@ namespace HospiEnCasa.App.Frontend.Pages.Pacientes
 {
     public class DetailsModel : PageModel
     {
-       
-        public void OnGet(int id)
+        private readonly IRepositorioPaciente _repoPaciente;
+        public Paciente paciente{get;set;}
+        public DetailsModel(IRepositorioPaciente repoPaciente)
         {
-        
-            
+            _repoPaciente = repoPaciente;
+        }
+        public IActionResult OnGet(int id)
+        {
+            paciente = _repoPaciente.GetPaciente(id);
+            if(paciente == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                return Page();
+            }
         }
     }
 }
