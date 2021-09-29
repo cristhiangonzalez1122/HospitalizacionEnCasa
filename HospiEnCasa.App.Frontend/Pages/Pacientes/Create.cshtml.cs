@@ -21,5 +21,11 @@ namespace HospiEnCasa.App.Frontend.Pages.Pacientes
         {
             paciente = new Paciente();
         }
+
+         public IActionResult OnPost(Paciente paciente)
+        {
+            _repoPaciente.AddPaciente(paciente);
+            return RedirectToPage("Index");
+        }
     }
 }
